@@ -1,0 +1,30 @@
+.about__container{
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem;
+    min-width: none;
+    font-family: var(--font-family);
+    padding: 3rem;
+    color:var(--color-text);
+}
+
+.about__name-section{
+    margin-bottom: 0 !important;
+    font-size: 6rem;
+    line-height: 5.5rem;
+    text-transform:uppercase;
+    padding-bottom: 1rem;
+   
+}
+
+.about__sub-heading{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.about__body{
+    font-size: 1.15rem;
+    font-weight: 400;
+}

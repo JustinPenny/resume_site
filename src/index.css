@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --padding-top: 54px;
+  --gradient-text: linear-gradient(180deg, rgba(112, 168, 255, 1) 0%, rgba(112, 168, 255, 1) 66%, rgba(168, 228, 255, 1) 90%);
+  --gradient-bar: linear-gradient(180deg, rgba(33, 150, 243, 1) 0%, rgba(5, 49, 84, 1) 100%);
+  
+  --color-bg: #FFF;
+  --color-text: #7c7c7c;
+  --color-nav-text: #ffffff;
+}

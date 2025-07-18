@@ -1,0 +1,77 @@
+.sidenav{
+    text-align: center;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+    padding: .5rem 1rem;
+    box-sizing: border-box;
+    float:left;
+}
+
+
+.sidenav__image{
+    vertical-align: auto;
+    margin: 5rem auto 0 auto;
+}
+
+@keyframes changeColor{
+    0% {
+    border-color:rgba(112, 168, 255, 1);
+    }
+  
+    50% {
+     border-color: rgba(168, 228, 255, 1);
+    }
+    
+    100% {
+     border-color: rgba(112, 168, 255, 1);
+    }
+   
+}
+  
+
+.sidenav__image img{
+    display: flex;
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid;
+    border-color:  rgba(33, 150, 243, 1) 50%;
+    border-radius:100%;
+    animation: changeColor linear;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+    animation-fill-mode: both;
+
+}
+
+
+.sidenav__list{
+  display: grid;
+  margin: 0 auto auto auto;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-item{
+    display: block;
+    font-weight: 800;
+    margin: 1rem;
+}
+
+.nav-item a {
+    font-family: var(--font-family);
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: var( --color-nav-text);
+}
+
+
+.gradient__bg{
+    /* global 94%+ browsers support */
+    background: linear-gradient(180deg, rgba(112, 168, 255, 1) 0%, rgba(112, 168, 255, 1) 66%, rgba(168, 228, 255, 1) 90%);
+}

@@ -1,0 +1,110 @@
+/*
+CSS REFRESHER
+
+CSS is written in the stle of
+<element>{
+    element attributes : something
+}
+
+styles will affect all elements of a given type
+
+p{} -> all <p> elements
+#para{} -> all elements with id="para"
+.center -> all elements with class="center"
+p.center -> all <p> elements with class="center"
+
+*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.App__body{
+    float: left;
+}
+
+.App__nav{
+    float: left;
+}
+
+.gradient__text{
+    background:var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    background: var(--color-bg)
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.gradient__text{
+    background:var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__padding{
+    padding: 4rem 6rem;
+}
+
+.section__margin{
+    padding: 4rem 6rem;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/* Animista.net generated */
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/* for tablets or bigger phones */
+@media screen and (max-width: 700px){
+.section__padding{
+    padding: 4rem;
+}
+
+.section__margin{
+    padding: 4rem;
+}
+}
+
+/* for most phones */
+@media screen and (max-width: 550px){
+.section__padding{
+    padding: 4rem 2rem;
+}
+
+.section__margin{
+    padding: 4rem 2rem;
+}
+}
