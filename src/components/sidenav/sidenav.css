@@ -1,4 +1,4 @@
-.sidenav{
+.Sidenav{
     text-align: center;
     top: 0;
     left: 0;
@@ -12,7 +12,7 @@
 }
 
 
-.sidenav__image{
+.Sidenav__image{
     vertical-align: auto;
     margin: 5rem auto 0 auto;
 }
@@ -33,7 +33,7 @@
 }
   
 
-.sidenav__image img{
+.Sidenav__image img{
     display: flex;
     max-width: 10rem;
     max-height: 10rem;
@@ -48,7 +48,7 @@
 }
 
 
-.sidenav__list{
+.Sidenav__list{
   display: grid;
   margin: 0 auto auto auto;
   flex-direction: column;
@@ -74,4 +74,49 @@
 .gradient__bg{
     /* global 94%+ browsers support */
     background: linear-gradient(180deg, rgba(112, 168, 255, 1) 0%, rgba(112, 168, 255, 1) 66%, rgba(168, 228, 255, 1) 90%);
+}
+
+@media screen and (max-width: 1050px){
+    .Sidenav{
+        width: 100vw;
+        height: auto;
+        display: flex;
+    }
+
+    /*TODO: fix hamburger icon being on let and not being where X is. Close to done with navbar otherwise.*/
+    .Sidebar__nav--toggle{
+        width:fit-content;
+        display: block;
+        cursor: pointer;
+    }
+    .Sidenav__image img{
+        display: none;
+    }
+    .Sidenav__list{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .content__navbar{
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .content__navbar{
+        padding: 2rem;
+    }
+
+    .content__navbar-sign{
+        display: none;
+    }
+
+    .content__navbar-menu_container{
+        top:20px;
+    }
+    
+    .content__navbar-menu_container-links-sign{
+        display: block;
+    }
 }
