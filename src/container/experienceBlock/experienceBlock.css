@@ -6,21 +6,21 @@
     min-width: none;
 }
 
-.ExperienceBlock__title{
+.ExperienceBlock__heading{
     text-transform: uppercase;
     display: inline-block;
     padding-bottom: 1rem;
 }
 
-.ExperienceBlock__employmentDuration{
+.ExperienceBlock__date{
     text-transform: uppercase;
     float:right;
 }
 
-.ExperienceBlock__company{
+.ExperienceBlock__subheading{
     text-transform: uppercase;
     padding-bottom:1rem;
 }
-.ExperienceBlock__experienceItems{
+.ExperienceBlock__body{
     display: table;
 }

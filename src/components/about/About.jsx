@@ -1,4 +1,6 @@
 import './about.css'
+import linkedin from '../../assets/linkedin.png'
+import github from '../../assets/github.png'
 
 const About = () =>{
     return(
@@ -17,7 +19,12 @@ const About = () =>{
             I pride myself on my ability to learn new systems and techniques.
             </div>
             <div className='about__links'>
-                TODO: add github and linkedin links
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justin-penny-b34703150/">
+                    <img className="flaticon" src={linkedin} alt="linkedin icon" title="Linkedin"></img>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/JustinPenny" title="Github">
+                    <img className="flaticon" src={github} alt="github icon"></img>
+                </a>
             </div>
         </div>
     )
