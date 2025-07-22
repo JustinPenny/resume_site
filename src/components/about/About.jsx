@@ -17,7 +17,7 @@ const About = () =>{
             I pride myself on my ability to learn new systems and techniques.
             </div>
             <div className='about__links'>
-
+                TODO: add github and linkedin links
             </div>
         </div>
     )

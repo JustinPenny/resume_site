@@ -21,12 +21,14 @@ p.center -> all <p> elements with class="center"
     scroll-behavior: smooth;
 }
 
-.App__body{
-    float: left;
+.App{
+    display:flex;
+    height: auto;
+    min-height: 100%;
 }
 
 .App__nav{
-    float: left;
+    position:sticky;
 }
 
 .gradient__text{
@@ -85,6 +87,17 @@ a {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+}
+
+
+@media screen and (max-width: 1050px){
+.section__padding{
+    padding: 4rem;
+}
+
+.section__margin{
+    padding: 4rem;
+}
 }
 
 /* for tablets or bigger phones */

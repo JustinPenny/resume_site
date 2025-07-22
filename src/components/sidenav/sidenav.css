@@ -1,16 +1,17 @@
 .Sidenav{
     text-align: center;
-    top: 0;
-    left: 0;
     display: flex;
     flex-direction: column;
     width: 17rem;
-    height: 100vh;
+    height: 100%;
     padding: .5rem 1rem;
-    box-sizing: border-box;
-    float:left;
+    position: sticky;
 }
 
+.Sidenav__container{
+    position:sticky;
+    top: 2%;
+}
 
 .Sidenav__image{
     vertical-align: auto;
@@ -34,7 +35,6 @@
   
 
 .Sidenav__image img{
-    display: flex;
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid;
@@ -76,6 +76,10 @@
     background: linear-gradient(180deg, rgba(112, 168, 255, 1) 0%, rgba(112, 168, 255, 1) 66%, rgba(168, 228, 255, 1) 90%);
 }
 
+.Sidebar__nav--toggle{
+    display:none;
+}
+
 @media screen and (max-width: 1050px){
     .Sidenav{
         width: 100vw;
@@ -88,7 +92,16 @@
         width:fit-content;
         display: block;
         cursor: pointer;
+        right:0;
     }
+
+    .Sidebar__navbar-menu_container{
+        right: 0;
+    }
+    .Sidebar__navbar-menu_container-links{
+        right: 0;
+    }
+
     .Sidenav__image img{
         display: none;
     }

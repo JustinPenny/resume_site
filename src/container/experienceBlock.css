@@ -1,0 +1,26 @@
+.ExperienceBlock__main{
+    font-family: var(--font-family);
+    padding-bottom: 5rem !important;
+    padding: 3rem;
+    max-width: 75rem;
+    min-width: none;
+}
+
+.ExperienceBlock__title{
+    text-transform: uppercase;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+
+.ExperienceBlock__employmentDuration{
+    text-transform: uppercase;
+    float:right;
+}
+
+.ExperienceBlock__company{
+    text-transform: uppercase;
+    padding-bottom:1rem;
+}
+.ExperienceBlock__experienceItems{
+    display: table;
+}

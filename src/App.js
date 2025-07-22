@@ -8,6 +8,7 @@ const App = () => {
         <Sidenav />
       </div>
       <div className="App__body">
+        TODO: Finish sections. Social links in ABOUT section. Move Experience data to new file. Mobile =/
       <About />
       <Experience />
       <Education />
@@ -16,6 +17,7 @@ const App = () => {
       <Interests />
       <Info />
       <Footer />
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       </div>
     </div>
   )

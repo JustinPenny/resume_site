@@ -9,10 +9,10 @@ const Menu = () =>(
         <a href="#about">About</a>
     </li>
     <li className='nav-item'>
-        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
     </li>
     <li className='nav-item'>
-        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
     </li>
     <li className='nav-item'>
         <a href="#skills">Skills</a>
@@ -32,8 +32,8 @@ const Menu = () =>(
 const Sidenav = () =>{
     const [toggleMenu, setToggleMenu] = useState(false);
     return(
-        <div>
             <div className='Sidenav gradient__bg'>
+                <div className='Sidenav__container'>
                 <div className='Sidenav__image'>
                     <a href="#about">
                         <img src={profile} alt="profile"/>
@@ -52,18 +52,16 @@ const Sidenav = () =>{
 
                 {/*toggleMenu && -> if menu is toggled and the variable is true, execute block */}
                 {toggleMenu && (
-                <div className="content__navbar-menu_container scale-up-center">
-                    <div className="content__navbar-menu_container-links">
+                <div className="Sidebar__navbar-menu_container">
+                    <div className="Sidebar__navbar-menu_container-links">
                     <Menu />
                     </div>
                 </div>
                 )
                 }
                 </div>
-
-
+                </div>
             </div>
-        </div>
     )
 }
 
