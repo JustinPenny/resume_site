@@ -26,7 +26,10 @@ const About = () =>{
                     <img className="flaticon" src={github} alt="github icon"></img>
                 </a>
             </div>
-            <a href="../../assets/justinResume.pdf" download="Justin_Penny_Resume">Download the pdf</a>
+            <h3 className="animate__animated animate__flash">
+            <a href="../../assets/justinResume.pdf" download="Justin_Penny_Resume">Click HERE to Download My Resume!</a>
+            </h3>
+            
 
         </div>
     )

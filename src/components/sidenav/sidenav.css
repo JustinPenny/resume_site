@@ -49,10 +49,12 @@
 
 
 .Sidenav__list{
-  display: grid;
-  margin: 0 auto auto auto;
-  flex-direction: column;
-  width: 100%;
+    display: grid;
+    margin: 0 auto auto auto;
+    flex-direction: column;
+    width: 100%;
+    -webkit-text-stroke-color: rgba(112, 168, 255, 1);
+    -webkit-text-stroke-width: 1px;
 }
 
 .nav-item{
@@ -68,6 +70,11 @@
     padding-right: .5rem;
     padding-left: .5rem;
     color: var( --color-nav-text);
+    font-size:1.3em;
+}
+
+.nav-item a:hover {
+ opacity: 0.5;
 }
 
 

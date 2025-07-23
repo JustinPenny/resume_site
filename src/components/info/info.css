@@ -1,0 +1,12 @@
+.Info__heading{
+    padding-top: 5rem !important;
+    padding-left: 3rem;
+    font-size:3em;
+    text-transform: uppercase;
+    color: #3f3f3f;
+}
+
+.Info__main{
+    font-family: var(--font-family);
+    color: var(--color-text);
+}

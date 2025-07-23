@@ -1,7 +1,6 @@
 import './experienceBlock.css'
 
-// This data is being passed in from Experience.jsx
-// I'm planning on splitting the data into its own file as to not be so large
+// Currently this is being used by the Skills and Education components
 const ExperienceBlock = ({heading, date, subheading, bodyItems}) =>{
     return(
         <div className='ExperienceBlock__main'>
@@ -9,7 +8,7 @@ const ExperienceBlock = ({heading, date, subheading, bodyItems}) =>{
                 {heading}
             </h3>
             <div className='ExperienceBlock__date'>
-                <span className='ExperienceBlock__date-text'>
+                <span className='ExperienceBlock__date-text gradient__text'>
                     {date}
                 </span>
             </div>

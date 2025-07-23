@@ -6,4 +6,7 @@
 .Education__heading{
     padding-top: 5rem !important;
     padding-left: 3rem;
+    font-size:3em;
+    color: #3f3f3f;
+    text-transform: uppercase;
 }

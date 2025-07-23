@@ -1,6 +1,9 @@
 .Skills__heading{
     padding-top: 5rem !important;
     padding-left: 3rem;
+    font-size:3em;
+    text-transform: uppercase;
+    color: #3f3f3f;
 }
 
 .Skills__main{
