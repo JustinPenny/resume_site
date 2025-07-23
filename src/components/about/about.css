@@ -24,9 +24,12 @@
     margin-bottom: 3rem;
 }
 
+.about__sub-heading a:hover{
+    opacity: .8;
+}
 .about__body{
-    font-size: 1.15rem;
-    font-weight: 400;
+    font-size: 6em;
+    font-weight: 700;
 }
 
 .about__links img:hover{
@@ -35,4 +38,88 @@
 
 .animate__animated a:hover{
     opacity: .5;
+}
+
+.tracking-in-expand {
+-webkit-animation: tracking-in-expand 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+        animation: tracking-in-expand 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+}
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+#cycle:after {
+    animation-name:cycle;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    content: "";
+  }
+
+
+@keyframes cycle{
+    0% {
+
+    }
+    10% {
+    content: "Engineer";
+        opacity:1;
+    }
+    20% {
+    content: "Gamer";
+        opacity:1;
+    }
+    30% {
+    content: "Cook";
+        opacity:1;
+    }
+    40% {
+    content: "Developer";
+        opacity:1;
+    }
+    50% {
+    content: "Team Player";
+        opacity:1;
+    }  
+    60% {
+    content: "Cat Dad";
+        opacity:1;
+    }
+    70% {
+    content: "Comedy Lover";
+        opacity:1;
+    }
+    80% {
+    content: "QA Specialist";
+        opacity:1;
+    }
+    90% {
+    content: "Nice Dude";
+        opacity:1;
+    }
+    100% {
+    content: "Tech Entheusiast";
+        opacity:1;
+    }
 }

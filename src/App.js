@@ -8,16 +8,15 @@ const App = () => {
         <Sidenav />
       </div>
       <div className="App__body">
-        TODO: Finish fleshing out. Decorate. Improve pdf link. Mobile.
+        TODO: Figure out this animation. Feels like I'm close to getting what I want
       <About />
       <Experience />
-      <Education />
+     {/*<Education />*/}
       <Skills />
       <Projects />
       <Interests />
       <Info />
       <Footer />
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       </div>
     </div>
   )
