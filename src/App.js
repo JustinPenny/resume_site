@@ -8,7 +8,7 @@ const App = () => {
         <Sidenav />
       </div>
       <div className="App__body">
-        TODO: Finish sections. Social links in ABOUT section. Move Experience data to new file. Mobile =/
+        TODO: Finish fleshing out. Decorate. Improve pdf link. Mobile.
       <About />
       <Experience />
       <Education />
